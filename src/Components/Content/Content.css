@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    position: relative;
+}
+
+.title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    height: 5px;
+    width: 5rem;
+    background-color: #1aa698;
+    transform: translateX(-50%);
+}
+
+.btns-container .name-btn {
+    width: 10rem;
+    margin: 5px auto;
+    border: none;
+    outline: none;
+}
+
+.btns-container .name-btn:hover, .btns-container .active-btn {
+    color: #1aa698;
+    border-left: 2px solid #1aa698;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.show-name {
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #585454d4;
+    background-color: rgb(210, 210, 210);
+    padding-left: 10px auto;
+    border-radius: 5px;
+}
+
+.experience {
+    color: lightslategray;
+}
+
+.text-para .icon {
+    color: #1aa698;
+    padding-top: 0.7rem;
+}
+.info {
+    color: rgb(58 66 74);
+}
+
+.btn-container .more-btn {
+    background-color: #1aa698;
+    color: #fff;
+}
+
+.btn-container .btn {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-container .btn:hover {
+    background-color: #1aa698;
+    color: #fff;
+}
