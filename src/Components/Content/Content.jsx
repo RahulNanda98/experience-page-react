@@ -28,11 +28,6 @@ function Content({ data }) {
                         )
                     })}
                 </div>
-                {/* <div className="col-md-3 d-flex flex-column btns-container">
-                    <button className='btn text-uppercase name-btn'>Bob</button>
-                    <button className='btn text-uppercase name-btn'>john</button>
-                    <button className='btn text-uppercase name-btn'>Albert</button> */}
-                {/* </div> */}
                 <div className="col-md-9">
                     <div className="text-container">
                         {details ?
